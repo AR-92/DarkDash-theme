@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkDash</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body>
+    <div id="app" data-v-app="">
+        <div class="flex w-full min-h-screen font-sans bg-gray-800">
+            <div class="flex flex-col gap-y-4 items-center py-8 w-24 bg-gray-900"><button class="p-2 bg-opacity-20 rounded-xl bg-primary"><svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M31.667 3.333H8.333c-2.756 0-5 2.244-5 5v4.719c0 1.755.637 3.35 1.667 4.576v15.705A1.667 1.667 0 0 0 6.667 35H20a1.667 1.667 0 0 0 1.667-1.667V25h6.666v8.333A1.667 1.667 0 0 0 30 35h3.334A1.667 1.667 0 0 0 35 33.333V17.627a7.09 7.09 0 0 0 1.667-4.577V8.333c0-2.756-2.244-5-5-5Zm1.666 5v4.719c0 1.9-1.414 3.52-3.151 3.611l-.182.004a3.337 3.337 0 0 1-3.333-3.334V6.667h5c.92 0 1.666.748 1.666 1.666Zm-16.666 5V6.667h6.666v6.666A3.337 3.337 0 0 1 20 16.667a3.337 3.337 0 0 1-3.333-3.334Zm-10-5c0-.918.747-1.666 1.667-1.666h5v6.666A3.337 3.337 0 0 1 10 16.667l-.181-.005c-1.737-.09-3.152-1.71-3.152-3.61V8.333Zm10 18.334H10v-5h6.667v5Z" fill="url(#a)"></path><defs><linearGradient id="a" x1="20" y1="3.333" x2="20" y2="35" gradientUnits="userSpaceOnUse"><stop stop-color="#EA9769"></stop><stop offset="1" stop-color="#EA6969"></stop></linearGradient></defs></svg></button>
+                <div
+                    class="flex flex-col gap-y-4 items-end self-end">
+                    <div class=""><button class="p-4 my-4 mr-4 ml-3 rounded-xl text-primary"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current"><path d="M9.73 2.788a3.633 3.633 0 0 1 4.36-.12l.16.12 6.09 4.871a2.999 2.999 0 0 1 1.15 2.13l.01.2v8.11c0 2.09-1.65 3.79-3.72 3.9h-1.99a1.83 1.83 0 0 1-1.79-1.69l-.01-.14v-2.86a.635.635 0 0 0-.54-.62l-.09-.01h-2.67a.635.635 0 0 0-.62.54l-.01.09v2.85c0 .06-.01.13-.02.18l-.01.02-.01.07a1.822 1.822 0 0 1-1.69 1.56L8.2 22H6.41c-2.09 0-3.8-1.64-3.91-3.7v-8.31a2.967 2.967 0 0 1 1-2.19l6.23-5.01Zm3.65 1.09a2.256 2.256 0 0 0-2.64-.11l-.15.11L4.51 8.78a1.55 1.55 0 0 0-.61 1.06l-.01.16v8.1c0 1.33 1.04 2.42 2.36 2.5H8.2c.22 0 .41-.15.44-.36l.02-.18.01-.05v-2.7c0-1.07.82-1.94 1.87-2.02h2.82c1.07 0 1.94.82 2.02 1.87v3.01c0 .21.15.39.35.43h1.86a2.5 2.5 0 0 0 2.51-2.34l.01-.16v-8.1a1.62 1.62 0 0 0-.5-1.13l-.13-.11-6.1-4.88Z"></path></svg></button></div>
+                    <div
+                        class=""><button class="p-4 my-4 mr-4 ml-3 rounded-xl text-primary"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current"><path d="m13.951 2.716.182.17.72.72c.246.245.57.396.914.43l.149.008h1.028a3.013 3.013 0 0 1 3.007 2.835l.005.177v1.027c0 .35.12.686.338.953l.1.11.718.72a3.012 3.012 0 0 1 .146 4.114l-.136.145-.728.729c-.245.245-.397.57-.43.913l-.008.149v1.029a3.012 3.012 0 0 1-2.835 3.006l-.177.005h-1.028c-.349 0-.685.12-.953.34l-.11.099-.718.716a3.01 3.01 0 0 1-4.115.146l-.154-.144-.717-.717a1.515 1.515 0 0 0-.917-.433l-.148-.007H7.055a3.011 3.011 0 0 1-3.006-2.834l-.005-.177v-1.03c0-.347-.121-.684-.34-.951l-.099-.11-.717-.718a3.011 3.011 0 0 1-.146-4.116l.136-.145.726-.727c.247-.248.399-.572.433-.917l.007-.148V7.056l.005-.177a3.013 3.013 0 0 1 2.83-2.83l.176-.005h1.029c.348 0 .685-.121.952-.338l.11-.1.718-.718c1.127-1.132 2.93-1.182 4.087-.172Zm-2.91 1.127-.114.104-.722.722a3.012 3.012 0 0 1-1.923.868l-.198.007H7.055c-.788 0-1.435.604-1.505 1.374l-.006.138v1.027c0 .729-.265 1.43-.742 1.978l-.135.146-.727.728a1.51 1.51 0 0 0-.097 2.024l.105.115.719.72c.514.516.823 1.201.87 1.924l.007.198v1.029c0 .788.604 1.435 1.374 1.505l.137.006h1.029c.728 0 1.43.265 1.978.742l.145.136.724.723a1.512 1.512 0 0 0 2.027.1l.115-.105.72-.72a3.01 3.01 0 0 1 1.925-.87l.198-.006h1.028c.789 0 1.436-.604 1.506-1.374l.006-.137v-1.03c0-.728.265-1.431.741-1.977l.136-.145.727-.727c.552-.555.584-1.43.097-2.024l-.104-.115-.722-.722a3.01 3.01 0 0 1-.869-1.924l-.006-.198V7.056c0-.789-.604-1.436-1.374-1.506l-.138-.006h-1.028c-.73 0-1.431-.265-1.978-.742l-.145-.135-.688-.69-.04-.037a1.512 1.512 0 0 0-2.024-.097Zm4.055 10.2c.07.07.13.15.17.24.03.09.05.19.05.29 0 .1-.02.19-.05.28-.04.09-.1.18-.17.25a.75.75 0 0 1-1.06 0 .821.821 0 0 1-.16-.25.717.717 0 0 1 0-.57c.04-.09.09-.17.16-.24.28-.28.78-.28 1.06 0Zm.004-5.144a.75.75 0 0 1 .073.977l-.073.084-5.14 5.14a.75.75 0 0 1-1.133-.977l.072-.084 5.14-5.14a.75.75 0 0 1 1.061 0Zm-5.144.004c.14.139.22.33.22.53 0 .1-.01.189-.05.28-.04.09-.1.17-.17.25a.773.773 0 0 1-.53.22c-.1 0-.19-.021-.28-.061a.818.818 0 0 1-.25-.16.963.963 0 0 1-.16-.25.714.714 0 0 1 0-.57c.04-.09.09-.18.16-.24a.772.772 0 0 1 1.06 0Z"></path></svg></button></div>
+            <div
+                class="bg-gray-800 rounded-l-xl relative before:absolute before:w-4 before:h-8 before:-top-8 before:rounded-br-xl before:right-0 before:shadow-inverse-top  after:absolute after:w-4 after:h-8 after:-bottom-8 after:rounded-tr-xl after:right-0 after:shadow-inverse-bottom"><button class="p-4 my-4 mr-4 ml-3 rounded-xl text-white shadow-primary bg-primary"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current"><path d="M10.498 6.76c.088.175.14.364.155.561l.389 5.489a.28.28 0 0 0 .099.194.29.29 0 0 0 .157.067l.062.001 5.574-.335c.453-.027.896.13 1.226.435.33.304.517.728.514 1.22-.247 3.612-2.901 6.632-6.515 7.415-3.614.782-7.323-.86-9.101-4.022a7.664 7.664 0 0 1-.944-2.61l-.048-.34A5.182 5.182 0 0 1 2 14.08l.003-.242c.01-3.771 2.659-7.033 6.385-7.913l.256-.056.137-.023c.721-.098 1.43.28 1.717.916Zm-1.482.518-.084.01-.228.051c-2.969.716-5.098 3.271-5.216 6.282l-.005.245c-.007.187 0 .373.022.572l.028.203c.1.854.375 1.68.816 2.436 1.467 2.61 4.518 3.96 7.49 3.316 2.972-.644 5.155-3.128 5.357-6.052a.158.158 0 0 0-.051-.116.165.165 0 0 0-.078-.04l-.043-.003-5.565.335a1.795 1.795 0 0 1-1.289-.42 1.716 1.716 0 0 1-.605-1.187l-.388-5.484c0-.009-.003-.018-.02-.053a.163.163 0 0 0-.14-.095Zm4.407-5.277c4.285.121 7.88 3.2 8.567 7.34l.01.116-.002.202c-.024.297-.144.58-.344.808a1.46 1.46 0 0 1-.995.49l-6.646.433c-.851.048-1.583-.585-1.639-1.417L11.93 3.45l.005-.146.022-.165c.06-.292.211-.559.435-.762.282-.254.655-.39 1.031-.375Zm-.012 1.448.44 6.43c.003.038.037.068.07.066l6.597-.431-.033-.18c-.653-3.254-3.473-5.67-6.856-5.875l-.218-.01Z"></path></svg></button></div>
+        <div
+            class=""><button class="p-4 my-4 mr-4 ml-3 rounded-xl text-primary"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current"><path d="M16.321 2.758a5.518 5.518 0 0 1 3.987 1.774 5.568 5.568 0 0 1 1.479 4.085l-.002 6.237a5.6 5.6 0 0 1-1.477 4.13 5.522 5.522 0 0 1-3.995 1.774h-9.06c-3.17 0-5.457-2.561-5.457-5.859V8.617c0-3.297 2.287-5.859 5.456-5.859h9.07Zm-.017 1.528H7.252c-2.293 0-3.939 1.844-3.939 4.331v6.282c0 2.488 1.646 4.33 3.94 4.33h9.051a4.005 4.005 0 0 0 2.895-1.287 4.097 4.097 0 0 0 1.07-3.043l.001-6.327a4.064 4.064 0 0 0-1.072-2.998 4.005 4.005 0 0 0-2.894-1.288Zm1.516 4.11c.238.3.216.725-.036.998l-.082.077-4.107 3.31a2.89 2.89 0 0 1-3.416.115l-.161-.119-4.135-3.304a.768.768 0 0 1-.122-1.074.755.755 0 0 1 .973-.187l.092.063 4.13 3.301a1.38 1.38 0 0 0 1.58.089l.118-.083 4.1-3.305a.755.755 0 0 1 1.066.12Z"></path></svg></button></div>
+    <div
+        class=""><button class="p-4 my-4 mr-4 ml-3 rounded-xl text-primary"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current"><path d="M14.608 19.69c.296.242.343.681.105.982-.176.221-.38.42-.596.583a3.495 3.495 0 0 1-4.902-.586.703.703 0 0 1 .11-.98.684.684 0 0 1 .968.11c.345.44.854.724 1.413.79a2.138 2.138 0 0 0 1.577-.445c.133-.1.253-.217.356-.347a.684.684 0 0 1 .969-.106ZM5.152 9l.012-.596c.01-.255.023-.492.043-.723C5.507 4.445 8.596 2 11.965 2h.071c3.367 0 6.457 2.443 6.767 5.685.018.206.026.39.028.647l.001.788c0 .072.002.135.004.194l.009.196.045.187a3.93 3.93 0 0 0 .726 1.431l.15.178.063.079c.406.607.638 1.313.671 2.074l-.001.403a4.076 4.076 0 0 1-.965 2.496 4.799 4.799 0 0 1-3.047 1.488 41.583 41.583 0 0 1-8.974 0 4.874 4.874 0 0 1-3.086-1.524 4.07 4.07 0 0 1-.926-2.66v-.238a4.08 4.08 0 0 1 .668-2.044l.068-.086a3.85 3.85 0 0 0 .928-1.82l-.015.06L5.152 9Zm6.884-5.605h-.071c-2.698 0-5.157 1.946-5.385 4.412-.012.135-.021.275-.029.422l-.016.467-.006.919-.015.142A5.251 5.251 0 0 1 5.25 12.24l.05-.057-.089.146a2.67 2.67 0 0 0-.313.94l-.018.19v.218a2.656 2.656 0 0 0 .575 1.716 3.485 3.485 0 0 0 2.198 1.065c2.887.314 5.8.314 8.7 0a3.418 3.418 0 0 0 2.156-1.031c.412-.494.63-1.117.614-1.773v-.164a2.586 2.586 0 0 0-.435-1.323l.016.026-.138-.162a5.331 5.331 0 0 1-1.013-1.997l-.065-.276-.013-.092a7.52 7.52 0 0 1-.018-.4l-.003-.905a6.69 6.69 0 0 0-.022-.548c-.237-2.472-2.697-4.418-5.395-4.418Z"></path></svg></button></div>
+        <div
+            class=""><button class="p-4 my-4 mr-4 ml-3 rounded-xl text-primary"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current"><path d="M12.616 2c.71 0 1.388.28 1.882.779.495.498.762 1.17.74 1.799l.009.147c.017.146.065.286.144.416.152.255.402.44.695.514.292.074.602.032.896-.137l.164-.082c1.23-.567 2.705-.117 3.387 1.043l.613 1.043c.017.027.03.056.043.085l.057.111a2.537 2.537 0 0 1-.884 3.204l-.257.159a1.102 1.102 0 0 0-.33.356 1.093 1.093 0 0 0-.117.847c.078.287.27.53.56.695l.166.105c.505.346.869.855 1.028 1.439.18.659.083 1.36-.272 1.957l-.66 1.077-.1.152c-.774 1.092-2.279 1.425-3.427.776l-.136-.069a1.19 1.19 0 0 0-.435-.1 1.128 1.128 0 0 0-1.143 1.154l-.008.171C15.12 20.971 13.985 22 12.616 22h-1.235c-1.449 0-2.623-1.15-2.622-2.525l-.008-.147a1.045 1.045 0 0 0-.148-.422 1.125 1.125 0 0 0-.688-.519c-.29-.076-.6-.035-.9.134l-.177.087a2.674 2.674 0 0 1-1.794.129 2.606 2.606 0 0 1-1.57-1.215l-.637-1.078-.085-.16a2.527 2.527 0 0 1 1.03-3.296l.104-.065c.309-.21.494-.554.494-.923 0-.401-.219-.772-.6-.989l-.156-.097a2.542 2.542 0 0 1-.764-3.407l.65-1.045a2.646 2.646 0 0 1 3.552-.96l.134.07c.135.06.283.093.425.094.626 0 1.137-.492 1.146-1.124l.009-.194a2.54 2.54 0 0 1 .752-1.593A2.642 2.642 0 0 1 11.381 2h1.235Zm0 1.448h-1.235c-.302 0-.592.118-.806.328a1.091 1.091 0 0 0-.325.66l-.013.306C10.133 6.07 9 7.114 7.613 7.114a2.619 2.619 0 0 1-1.069-.244l-.192-.1a1.163 1.163 0 0 0-1.571.43l-.65 1.045a1.103 1.103 0 0 0 .312 1.464l.261.162A2.556 2.556 0 0 1 5.858 12c0 .845-.424 1.634-1.156 2.13l-.156.096c-.512.29-.71.918-.472 1.412l.056.107.63 1.063c.147.262.395.454.688.536.26.072.538.052.754-.042l.109-.052a2.652 2.652 0 0 1 1.986-.261 2.591 2.591 0 0 1 1.925 2.21l.02.353c.062.563.548 1 1.14 1h1.234c.598 0 1.094-.45 1.14-1l.006-.11a2.536 2.536 0 0 1 .766-1.823 2.65 2.65 0 0 1 1.877-.75c.35.009.695.086 1.048.241l.316.158c.496.213 1.084.058 1.382-.361l.073-.111.644-1.052a1.1 1.1 0 0 0-.303-1.455l-.273-.17a2.563 2.563 0 0 1-1.062-1.462 2.513 2.513 0 0 1 .265-1.944c.19-.326.451-.606.792-.838l.161-.099c.512-.293.71-.921.473-1.417l-.07-.134-.013-.028-.585-.995a1.157 1.157 0 0 0-1.34-.513l-.111.044-.104.051a2.661 2.661 0 0 1-1.984.272 2.607 2.607 0 0 1-1.596-1.18 2.488 2.488 0 0 1-.342-1.021l-.014-.253a1.11 1.11 0 0 0-.323-.814 1.158 1.158 0 0 0-.823-.34Zm-.613 5.284c1.842 0 3.336 1.463 3.336 3.268 0 1.805-1.494 3.268-3.336 3.268-1.842 0-3.336-1.463-3.336-3.268 0-1.805 1.494-3.268 3.336-3.268Zm0 1.448c-1.026 0-1.858.815-1.858 1.82 0 1.005.832 1.82 1.858 1.82 1.026 0 1.858-.815 1.858-1.82 0-1.005-.832-1.82-1.858-1.82Z"></path></svg></button></div>
+            <div
+                class=""><button class="p-4 my-4 mr-4 ml-3 rounded-xl text-primary"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current"><path d="M11.331 2.021a4.435 4.435 0 0 1 4.43 4.227l.005.208v.933a.75.75 0 0 1-1.493.102l-.007-.102v-.933a2.935 2.935 0 0 0-2.763-2.93l-.172-.005H6.456a2.935 2.935 0 0 0-2.929 2.763l-.005.172v11.13a2.935 2.935 0 0 0 2.762 2.93l.172.006h4.885a2.925 2.925 0 0 0 2.92-2.753l.005-.171v-.944a.75.75 0 0 1 1.493-.101l.007.101v.944a4.425 4.425 0 0 1-4.21 4.418l-.215.006H6.456a4.435 4.435 0 0 1-4.43-4.227l-.004-.209V6.457a4.435 4.435 0 0 1 4.225-4.43l.209-.005h4.875Zm7.995 6.481.084.073 2.928 2.915c.027.026.05.053.071.08l-.07-.08a.753.753 0 0 1 .17.26l.012.035a.667.667 0 0 1 .019.064l.007.036a.637.637 0 0 1 .012.136v.029c0 .015-.002.03-.004.046l.005-.075a.755.755 0 0 1-.013.137l-.008.035a.65.65 0 0 1-.019.068l-.011.03a.68.68 0 0 1-.032.073l-.01.017a.743.743 0 0 1-.127.17l-.002.002-2.928 2.916a.75.75 0 0 1-1.13-.98l.072-.083 1.639-1.636-10.223.001a.75.75 0 0 1-.101-1.493l.101-.007h10.225l-1.641-1.633a.75.75 0 0 1-.075-.977l.073-.084a.75.75 0 0 1 .976-.075Z"></path></svg></button></div>
+                </div>
+                </div>
+                <main class="flex flex-col flex-1 gap-6 p-4">
+                    <header>
+                        <h1 class="text-3xl font-semibold leading-loose text-white">Dashboard</h1>
+                        <div class="text-gray-200">Tuesday 2 Feb, 2021</div>
+                    </header>
+                    <hr class="border-gray-700">
+                    <div class="flex gap-6">
+                        <div class="flex flex-col p-4 w-1/3 bg-gray-900 rounded-lg gap-y-3">
+                            <div class="flex items-center gap-x-3">
+                                <div class="p-2 bg-gray-800 rounded-lg"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9" stroke="#9288E0" stroke-width="1.8"></circle><path d="M10.459 9.941c0-.594.457-.966 1.077-1.038V11a1.506 1.506 0 0 1-.183-.053c-.594-.195-.894-.535-.894-1.005Zm3.264 4.074c0 .64-.49 1.064-1.181 1.123v-2.252c.045.013.091.026.13.032.731.203 1.051.562 1.051 1.097Zm-1.168 3.362-.007-.829c1.789-.17 2.925-1.155 2.925-2.71 0-1.58-1.064-2.245-2.376-2.526l-.555-.117V8.916c.692.111 1.077.633 1.097 1.156h1.67c-.025-1.358-1.09-2.39-2.741-2.566v-.849H11.51V7.5c-1.58.144-2.82 1.012-2.82 2.58 0 1.481 1.07 2.239 2.285 2.506l.561.124v2.429c-.835-.111-1.273-.614-1.306-1.214H8.52c.013 1.207.823 2.48 2.984 2.637l-.007.816h1.058Z" fill="#9288E0"></path></svg></div>
+                                <span
+                                    class="text-xs font-medium text-accent-green">+32.40%</span>
+                                    <div class="p-0.5 rounded-full bg-accent-green/20"><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-current text-accent-green"><path d="M7 12.25a.482.482 0 0 1-.48-.412l-.004-.065v-8.39l-3.063 3.03a.49.49 0 0 1-.685.002.472.472 0 0 1-.049-.621l.047-.054 3.89-3.85.01-.01a.49.49 0 0 1 .033-.027l-.043.037a.486.486 0 0 1 .326-.14h.034l.036.003L7 1.75a.495.495 0 0 1 .347.144l3.887 3.846a.472.472 0 0 1-.002.675.49.49 0 0 1-.63.045l-.055-.046-3.062-3.03v8.389A.48.48 0 0 1 7 12.25Z"></path></svg></div>
+                            </div>
+                            <div class="text-3xl font-semibold text-white">$10,243.00</div>
+                            <div class="text-sm tracking-wide text-gray-500">Total Revenue</div>
+                        </div>
+                        <div class="flex flex-col p-4 w-1/3 bg-gray-900 rounded-lg gap-y-3">
+                            <div class="flex items-center gap-x-3">
+                                <div class="p-2 bg-gray-800 rounded-lg"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.32 2c3.062 0 5.014 1.435 5.014 4.258V20.33c0 .443-.172.867-.477 1.18-.306.313-.72.489-1.163.489a1.705 1.705 0 0 1-.774-.203l-5.613-3.134-5.59 3.14c-.672.36-1.488.194-2-.405l-.097-.126-.094-.155a1.778 1.778 0 0 1-.192-.786V6.434C4.333 3.5 6.242 2 9.348 2h5.971Zm0 1.448H9.347c-2.395 0-3.602.948-3.602 2.986V20.32c0 .044.01.088 0 .07l.037.063c.064.09.185.12.27.074l5.587-3.138c.417-.23.918-.23 1.337.001l5.603 3.128c.042.023.089.035.126.035a.213.213 0 0 0 .152-.064.224.224 0 0 0 .063-.157V6.258c0-1.9-1.238-2.81-3.602-2.81Zm.421 4.869c.39 0 .706.324.706.723 0 .367-.265.67-.61.718l-.096.006H8.874a.715.715 0 0 1-.706-.723c0-.367.266-.67.61-.718l.096-.006h6.867Z" fill="#FFB572"></path></svg></div>
+                                <span
+                                    class="text-xs font-medium text-accent-red">-12.40%</span>
+                                    <div class="p-0.5 rounded-full bg-accent-red/20"><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-current text-accent-red"><path d="M7.334 1.75c.245 0 .447.18.48.413l.004.064v8.39l3.063-3.03a.49.49 0 0 1 .685-.002c.172.169.188.434.048.621l-.047.054-3.89 3.85-.01.009a.5.5 0 0 1-.033.028l.043-.037a.474.474 0 0 1-.294.138.421.421 0 0 1-.032.002h-.034a.534.534 0 0 1-.035-.003l.052.003a.493.493 0 0 1-.282-.089l-.007-.005a.483.483 0 0 1-.058-.05L3.1 8.26a.472.472 0 0 1 .001-.675.49.49 0 0 1 .63-.045l.055.046 3.063 3.03V2.228a.48.48 0 0 1 .485-.477Z"></path></svg></div>
+                            </div>
+                            <div class="text-3xl font-semibold text-white">23,456</div>
+                            <div class="text-sm tracking-wide text-gray-500">Total Dish Ordered</div>
+                        </div>
+                        <div class="flex flex-col p-4 w-1/3 bg-gray-900 rounded-lg gap-y-3">
+                            <div class="flex items-center gap-x-3">
+                                <div class="p-2 bg-gray-800 rounded-lg"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m10.258 14.456.32.002c4.644.04 7.272.978 7.272 3.54 0 2.508-2.519 3.476-6.96 3.557l-.632.005c-4.844 0-7.591-.92-7.591-3.542 0-2.624 2.758-3.562 7.591-3.562Zm0 1.5c-4.017 0-6.091.705-6.091 2.062 0 1.349 2.069 2.042 6.091 2.042 4.018 0 6.092-.705 6.092-2.062 0-1.348-2.07-2.042-6.092-2.042Zm7.996-2.208c.58.04 1.157.123 1.712.246 1.188.236 2.072.677 2.476 1.526.299.63.299 1.36 0 1.99-.402.846-1.276 1.284-2.471 1.53a.75.75 0 0 1-.302-1.47c.768-.157 1.28-.414 1.418-.705a.818.818 0 0 0 0-.7c-.138-.292-.653-.549-1.43-.703-.497-.11-1-.183-1.505-.217a.75.75 0 1 1 .102-1.497ZM10.258 2.5a5.12 5.12 0 0 1 5.135 5.134 5.12 5.12 0 0 1-5.135 5.135 5.119 5.119 0 0 1-5.134-5.135A5.118 5.118 0 0 1 10.258 2.5Zm6.429 1.07a4.047 4.047 0 0 1 0 8.093.75.75 0 0 1 0-1.5 2.547 2.547 0 1 0 0-5.094.75.75 0 0 1 0-1.5ZM10.258 4a3.618 3.618 0 0 0-3.634 3.634 3.619 3.619 0 0 0 3.634 3.635 3.62 3.62 0 0 0 3.635-3.635A3.62 3.62 0 0 0 10.258 4Z" fill="#65B0F6"></path></svg></div>
+                                <span
+                                    class="text-xs font-medium text-accent-green">+2.40%</span>
+                                    <div class="p-0.5 rounded-full bg-accent-green/20"><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-current text-accent-green"><path d="M7 12.25a.482.482 0 0 1-.48-.412l-.004-.065v-8.39l-3.063 3.03a.49.49 0 0 1-.685.002.472.472 0 0 1-.049-.621l.047-.054 3.89-3.85.01-.01a.49.49 0 0 1 .033-.027l-.043.037a.486.486 0 0 1 .326-.14h.034l.036.003L7 1.75a.495.495 0 0 1 .347.144l3.887 3.846a.472.472 0 0 1-.002.675.49.49 0 0 1-.63.045l-.055-.046-3.062-3.03v8.389A.48.48 0 0 1 7 12.25Z"></path></svg></div>
+                            </div>
+                            <div class="text-3xl font-semibold text-white">1,234</div>
+                            <div class="text-sm tracking-wide text-gray-500">Total Customer</div>
+                        </div>
+                    </div>
+                    <div class="p-6 bg-gray-900 rounded-lg">
+                        <div class="flex justify-between items-center pb-4">
+                            <h2 class="text-xl font-semibold leading-loose text-white">Order Report</h2><button class="flex py-3 px-4 rounded-lg border border-gray-700 gap-x-2.5"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.105 12.227c1.73 0 3.136 1.388 3.136 3.095 0 1.706-1.406 3.095-3.136 3.095-1.729 0-3.135-1.39-3.135-3.095 0-1.707 1.406-3.095 3.135-3.095Zm0 1.452c-.918 0-1.664.736-1.664 1.643 0 .906.746 1.643 1.664 1.643.919 0 1.665-.737 1.665-1.643 0-.907-.746-1.643-1.665-1.643Zm-6.766.917a.73.73 0 0 1 .735.726c0 .4-.33.725-.735.725H3.31a.73.73 0 0 1-.735-.726c0-.4.33-.725.735-.725H9.34ZM5.709 2.583c1.73 0 3.136 1.389 3.136 3.095 0 1.706-1.406 3.095-3.136 3.095-1.728 0-3.135-1.389-3.135-3.095 0-1.706 1.407-3.095 3.135-3.095Zm0 1.452c-.917 0-1.664.737-1.664 1.643s.747 1.643 1.664 1.643c.92 0 1.665-.737 1.665-1.643S6.628 4.035 5.71 4.035Zm12.797.917a.73.73 0 0 1 .735.726c0 .4-.33.726-.735.726h-6.03a.73.73 0 0 1-.735-.726c0-.4.33-.726.735-.726h6.03Z" fill="#fff"></path></svg><span class="text-sm text-white">Filter order</span></button></div>
+                        <table
+                            class="w-full">
+                            <thead>
+                                <tr class="text-sm font-semibold text-white">
+                                    <td class="py-4 border-b border-gray-700">Customer</td>
+                                    <td class="py-4 border-b border-gray-700">Menu</td>
+                                    <td class="py-4 border-b border-gray-700 text-right">Total Payment</td>
+                                    <td class="py-4 border-b border-gray-700 text-center">Status</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="text-sm text-gray-500">
+                                    <td class="py-4">
+                                        <div class="flex gap-4 items-center"><img width="32" src="./img/avatar-1.png" alt=""><span>Eren Jaegar</span></div>
+                                    </td>
+                                    <td class="py-4">Spicy seasoned seafood noodles</td>
+                                    <td class="py-4 tabular-nums text-right">$125</td>
+                                    <td class="py-4 flex justify-center"><span class="flex justify-center py-1 w-24 font-medium capitalize rounded-full bg-accent-green/20 text-accent-green">completed</span></td>
+                                </tr>
+                                <tr class="text-sm text-gray-500">
+                                    <td class="py-4">
+                                        <div class="flex gap-4 items-center"><img width="32" src="./img/avatar-2.png" alt=""><span>Reiner Braunn</span></div>
+                                    </td>
+                                    <td class="py-4">Salted Pasta with mushroom sauce</td>
+                                    <td class="py-4 tabular-nums text-right">$145</td>
+                                    <td class="py-4 flex justify-center"><span class="flex justify-center py-1 w-24 font-medium capitalize rounded-full bg-accent-purple/20 text-accent-purple">preparing</span></td>
+                                </tr>
+                                <tr class="text-sm text-gray-500">
+                                    <td class="py-4">
+                                        <div class="flex gap-4 items-center"><img width="32" src="./img/avatar-3.png" alt=""><span>Levi Ackerman</span></div>
+                                    </td>
+                                    <td class="py-4">Beef dumpling in hot and sour soup</td>
+                                    <td class="py-4 tabular-nums text-right">$105</td>
+                                    <td class="py-4 flex justify-center"><span class="flex justify-center py-1 w-24 font-medium capitalize rounded-full bg-accent-orange/20 text-accent-green">pending</span></td>
+                                </tr>
+                                <tr class="text-sm text-gray-500">
+                                    <td class="py-4">
+                                        <div class="flex gap-4 items-center"><img width="32" src="./img/avatar-4.png" alt=""><span>Historia Reiss</span></div>
+                                    </td>
+                                    <td class="py-4">Hot spicy fried rice with omelet</td>
+                                    <td class="py-4 tabular-nums text-right">$45</td>
+                                    <td class="py-4 flex justify-center"><span class="flex justify-center py-1 w-24 font-medium capitalize rounded-full bg-accent-green/20 text-accent-green">completed</span></td>
+                                </tr>
+                                <tr class="text-sm text-gray-500">
+                                    <td class="py-4">
+                                        <div class="flex gap-4 items-center"><img width="32" src="./img/avatar-5.png" alt=""><span>Armin Arlert</span></div>
+                                    </td>
+                                    <td class="py-4">Spicy seasoned seafood noodles</td>
+                                    <td class="py-4 tabular-nums text-right">$125</td>
+                                    <td class="py-4 flex justify-center"><span class="flex justify-center py-1 w-24 font-medium capitalize rounded-full bg-accent-green/20 text-accent-green">completed</span></td>
+                                </tr>
+                                <tr class="text-sm text-gray-500">
+                                    <td class="py-4">
+                                        <div class="flex gap-4 items-center"><img width="32" src="./img/avatar-6.png" alt=""><span>Hanji Zoe</span></div>
+                                    </td>
+                                    <td class="py-4">Hot spicy fried rice with omelet</td>
+                                    <td class="py-4 tabular-nums text-right">$245</td>
+                                    <td class="py-4 flex justify-center"><span class="flex justify-center py-1 w-24 font-medium capitalize rounded-full bg-accent-green/20 text-accent-green">completed</span></td>
+                                </tr>
+                            </tbody>
+                            </table>
+                    </div>
+                </main>
+                <aside class="flex flex-col gap-y-6 pt-6 pr-6 w-96">
+                    <div class="flex flex-col p-6 bg-gray-900 rounded-lg gap-y-6">
+                        <div class="flex justify-between items-center">
+                            <h2 class="text-xl font-semibold leading-loose text-white">Most Ordered</h2><button class="flex gap-x-2.5 py-3 px-4 rounded-lg border border-gray-700"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 13.333a.827.827 0 0 1-.534-.193l-5-4.167a.833.833 0 1 1 1.067-1.28l4.476 3.73 4.468-3.596a.834.834 0 0 1 1.045 1.299l-5 4.023a.833.833 0 0 1-.522.184" fill="#fff"></path></svg><span class="text-sm text-white">Today</span></button></div>
+                        <hr
+                            class="border-gray-700">
+                            <div class="flex flex-col gap-y-4">
+                                <div class="flex gap-x-4 items-center"><img class="w-14 h-14" src="./img/food-1.png" alt="">
+                                    <div class="flex flex-col gap-y-0.5">
+                                        <div class="text-sm font-medium text-white">Spicy seasoned seafood noodles</div>
+                                        <div class="text-xs text-gray-500">200 dishes ordered</div>
+                                    </div>
+                                </div>
+                                <div class="flex gap-x-4 items-center"><img class="w-14 h-14" src="./img/food-2.png" alt="">
+                                    <div class="flex flex-col gap-y-0.5">
+                                        <div class="text-sm font-medium text-white">Salted pasta with mushroom sauce</div>
+                                        <div class="text-xs text-gray-500">120 dishes ordered</div>
+                                    </div>
+                                </div>
+                                <div class="flex gap-x-4 items-center"><img class="w-14 h-14" src="./img/food-3.png" alt="">
+                                    <div class="flex flex-col gap-y-0.5">
+                                        <div class="text-sm font-medium text-white">Beef dumpling in hot and sour soup</div>
+                                        <div class="text-xs text-gray-500">80 dishes ordered</div>
+                                    </div>
+                                </div>
+                            </div><button class="py-3.5 rounded-lg w-full border border-primary text-primary text-sm font-semibold"> View all </button></div>
+                    <div class="flex flex-col p-6 bg-gray-900 rounded-lg gap-y-6">
+                        <div class="flex justify-between items-center">
+                            <h2 class="text-xl font-semibold leading-loose text-white">Most type of order</h2><button class="flex gap-x-2.5 py-3 px-4 rounded-lg border border-gray-700"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 13.333a.827.827 0 0 1-.534-.193l-5-4.167a.833.833 0 1 1 1.067-1.28l4.476 3.73 4.468-3.596a.834.834 0 0 1 1.045 1.299l-5 4.023a.833.833 0 0 1-.522.184" fill="#fff"></path></svg><span class="text-sm text-white">Today</span></button></div>
+                        <hr
+                            class="border-gray-700">
+                            <div class="flex gap-x-7"><img width="176" src="./img/chart.svg" alt="">
+                                <div class="flex flex-col gap-y-4">
+                                    <div class="flex gap-x-2 items-start">
+                                        <div class="w-4 h-4 mt-0.5 rounded-full bg-accent-red"></div>
+                                        <div>
+                                            <div class="text-sm font-medium text-white">Dine in</div>
+                                            <div class="text-xs text-gray-500">200 customers</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-x-2 items-start">
+                                        <div class="w-4 h-4 mt-0.5 rounded-full bg-accent-orange"></div>
+                                        <div>
+                                            <div class="text-sm font-medium text-white">To go</div>
+                                            <div class="text-xs text-gray-500">122 customers</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-x-2 items-start">
+                                        <div class="w-4 h-4 mt-0.5 rounded-full bg-accent-blue"></div>
+                                        <div>
+                                            <div class="text-sm font-medium text-white">Delivery</div>
+                                            <div class="text-xs text-gray-500">264 customers</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </aside>
+                </div>
+                </div>
+</body>
+
+</html>
